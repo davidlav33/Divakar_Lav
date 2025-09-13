@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Divakar Lav — eCommerce Manager</title>
+  <meta name="description" content="Portfolio of Divakar Lav — eCommerce Manager with 10+ years experience." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <!-- replace 'yourkitid' in the script src with your FontAwesome Kit ID or use free CDN if preferred -->
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <span id="themeIcon">🌙</span>
+  </div>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <div class="brand">Divakar Lav</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h1 class="intro-line"><span id="typed-name"></span></h1>
+        <p class="lead">Experienced business development professional with over 10 years of expertise in driving growth in eCommerce and marketplace environments.</p>
+        <div class="hero-ctas">
+          <a class="btn" href="assets/cv.pdf" download>Download CV</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </div>
+        <div class="quick-info">
+          <a href="mailto:divakarlav3@gmail.com"><i class="fa fa-envelope"></i> divakarlav3@gmail.com</a>
+          <a href="tel:+917500755009"><i class="fa fa-phone"></i> +91 75007 55009</a>
+          <a href="https://linkedin.com/in/divakarlav" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i> LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="photo-wrap"><img src="assets/profile.jpg" alt="Divakar Lav"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-content">
+
+    <section id="about" class="card">
+      <h2>Profile Summary</h2>
+      <p>Experienced business development professional with over 10 years of expertise in driving growth in eCommerce and marketplace environments. Proven track record of identifying and capitalizing on market opportunities and enhancing revenue streams. Skilled in optimizing operations, improving customer experience and achieving sustained business expansion.</p>
+      <ul class="meta">
+        <li><strong>Location:</strong> Haridwar, India</li>
+        <li><strong>Email:</strong> <a href="mailto:divakarlav3@gmail.com">divakarlav3@gmail.com</a></li>
+        <li><strong>Phone:</strong> <a href="tel:+917500755009">+91-7500755009</a></li>
+      </ul>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Professional Experience</h2>
+
+      <div class="job">
+        <div class="job-head">
+          <img class="logo" src="https://logo.clearbit.com/porthomall.com" alt="PorthoMall">
+          <div>
+            <h3>Ecommerce Manager — Portho Mall USA LLC</h3>
+            <p class="muted">Jan 2023 - Dec 2024 · Roorkee, Uttarakhand · Team Handle: 15+</p>
+          </div>
+        </div>
+        <ul>
+          <li>Managed Shopify, Amazon, Walmart, Etsy stores with end-to-end sales and marketing responsibility.</li>
+          <li>Handled FBA/FBM, international shipments, and team coordination.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <img class="logo" src="https://logo.clearbit.com/jaivikuttarakhand.com" alt="Jaivik Uttarakhand">
+          <div>
+            <h3>Ecommerce Manager & Trainer — Jaivik Uttarakhand</h3>
+            <p class="muted">Jan 2025 - Present · Remote (Part Time)</p>
+          </div>
+        </div>
+        <ul>
+          <li>Training on eCommerce platforms, Amazon/Walmart operations and SEO.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <img class="logo" src="https://logo.clearbit.com/celec.com" alt="Celec">
+          <div>
+            <h3>Ecommerce Manager — Celec Enterprises</h3>
+            <p class="muted">Dec 2016 - Aug 2018 · Ludhiana, Punjab · Team Handle: 10+</p>
+          </div>
+        </div>
+        <ul>
+          <li>Led a 10+ member team; executed SEO/SEM and multi-channel selling strategies.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <img class="logo" src="https://logo.clearbit.com/maitricrafts.com" alt="MaitriCrafts">
+          <div>
+            <h3>Ecommerce Executive — Maitri Crafts</h3>
+            <p class="muted">Jun 2014 - Dec 2016 · Bangalore, Karnataka</p>
+          </div>
+        </div>
+        <ul>
+          <li>Managed marketplace listings, digital marketing campaigns and international customer handling.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Core Skills</h2>
+      <div class="skills-grid">
+        <div class="skill"><i class="fab fa-shopify"></i><span>Shopify</span></div>
+        <div class="skill"><i class="fab fa-wordpress"></i><span>WordPress</span></div>
+        <div class="skill"><i class="fab fa-aws"></i><span>Amazon</span></div>
+        <div class="skill"><i class="fa fa-chart-line"></i><span>SEO / SEM</span></div>
+        <div class="skill"><i class="fa fa-ad"></i><span>Google Ads</span></div>
+        <div class="skill"><i class="fa fa-balance-scale"></i><span>Payments & Gateways</span></div>
+      </div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects & Links</h2>
+      <ul class="links-list">
+        <li><img src="https://www.google.com/s2/favicons?domain=porthomall.com"> <a href="https://www.porthomall.com" target="_blank">PorthoMall.com</a></li>
+        <li><img src="https://www.google.com/s2/favicons?domain=jaivikuttarakhand.com"> <a href="https://www.jaivikuttarakhand.com" target="_blank">JaivikUttarakhand.com</a></li>
+        <li><img src="https://www.google.com/s2/favicons?domain=celec.com"> <a href="https://www.celec.com" target="_blank">Celec.com</a></li>
+        <li><img src="https://www.google.com/s2/favicons?domain=maitricrafts.com"> <a href="https://www.maitricrafts.com" target="_blank">MaitriCrafts.com</a></li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:divakarlav3@gmail.com">divakarlav3@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+917500755009">+91-7500755009</a></p>
+      <p><strong>Permanent Address:</strong> #40, Phase 1, Raj Vihar, Jagjeetpur, Kankhal, Haridwar, Uttarakhand, India</p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Divakar Lav · Designed & Developed</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
